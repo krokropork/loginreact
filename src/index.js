@@ -1,12 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import App from './App';
-import registerServiceWorker from './registerServiceWorker';
+import registerServiceWorker from './registerServiceWorker'
+import Routing from './routing';
 
-import 'bootstrap/dist/css/bootstrap.css';
+// Todo css
+import 'bootstrap/dist/css/bootstrap.css'
+import './scss/style.css'
+import './scss/util.css'
 
-
-
-ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render(
+    <div className="App">
+        <Routing></Routing>
+    </div>  
+, document.getElementById('root'));
 registerServiceWorker();

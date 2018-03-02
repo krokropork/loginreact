@@ -129,7 +129,7 @@
   .bg1 {background-color: #3b5998}
   .bg2 {background-color: #1da1f2}
   .bg3 {background-color: #ea4335}
-  
+  .bg4 {background-color: #00c300}
   
   
   /*//////////////////////////////////////////////////////////////////
@@ -450,3 +450,35 @@
       padding-right: 15px;
     }
   } 
+
+  .bglogin{
+    background: linear-gradient(291deg, #1aa6c9, #44c4e4, #7de4f1, #55bc7b, #65d556, #76b327, #c3eb03, #ebb703, #eb5b03);
+    background-size: 1800% 1800%;
+    -webkit-animation: AnimationName 20s ease infinite;
+    -moz-animation: AnimationName 20s ease infinite;
+    -o-animation: AnimationName 20s ease infinite;
+    animation: AnimationName 20s ease infinite;
+   
+  }
+ 
+
+  @-webkit-keyframes AnimationName {
+    0%{background-position:0% 46%}
+    50%{background-position:100% 55%}
+    100%{background-position:0% 46%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 46%}
+    50%{background-position:100% 55%}
+    100%{background-position:0% 46%}
+}
+@-o-keyframes AnimationName {
+    0%{background-position:0% 46%}
+    50%{background-position:100% 55%}
+    100%{background-position:0% 46%}
+}
+@keyframes AnimationName { 
+    0%{background-position:0% 46%}
+    50%{background-position:100% 55%}
+    100%{background-position:0% 46%}
+}
